@@ -1,0 +1,6 @@
+sqlite-utils
+pandas
+requests
+fastapi
+uvicorn
+python-multipart
