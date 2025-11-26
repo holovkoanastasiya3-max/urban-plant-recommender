@@ -20,6 +20,19 @@ app.add_middleware(
 )
 
 
+@app.get("/")
+def root():
+    return {
+        "message": "Urban Plant Recommender API",
+        "version": "0.1.0",
+        "endpoints": {
+            "health": "/health",
+            "recommend": "/recommend",
+            "docs": "/docs"
+        }
+    }
+
+
 @app.get("/health")
 def health_check():
     return {"status": "ok"}

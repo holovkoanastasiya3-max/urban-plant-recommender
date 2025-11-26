@@ -8,3 +8,4 @@ class RecommendRequest(BaseModel):
     biodiversity: int
     growth: int
     recovery: int
+    limit: int = 10
