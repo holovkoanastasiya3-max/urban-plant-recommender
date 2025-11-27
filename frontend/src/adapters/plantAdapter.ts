@@ -1,4 +1,4 @@
-import { Plant } from '../../App';
+import { Plant } from '../App';
 
 // Backend response format
 export type BackendPlant = {

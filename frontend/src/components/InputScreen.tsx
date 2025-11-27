@@ -74,8 +74,7 @@ export function InputScreen({
               id="soilType"
               value={soilType}
               onChange={(e) => setSoilType(e.target.value)}
-              className="w-full border border-stone-300 px-3 py-2 bg-white focus:outline-none focus:ring-2"
-              style={{ focusRingColor: '#A9B89E' }}
+              className="w-full border border-stone-300 px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-[#A9B89E]"
               required
             >
               {/* значення = коди, які чекає бекенд */}
@@ -99,8 +98,7 @@ export function InputScreen({
               id="minTemp"
               value={minTemp}
               onChange={(e) => setMinTemp(e.target.value)}
-              className="w-full border border-stone-300 px-3 py-2 bg-white focus:outline-none focus:ring-2"
-              style={{ focusRingColor: '#A9B89E' }}
+              className="w-full border border-stone-300 px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-[#A9B89E]"
               required
               placeholder="Наприклад: −30"
             />
@@ -153,8 +151,7 @@ export function InputScreen({
               id="sunlight"
               value={sunlight}
               onChange={(e) => setSunlight(e.target.value)}
-              className="w-full border border-stone-300 px-3 py-2 bg-white focus:outline-none focus:ring-2"
-              style={{ focusRingColor: '#A9B89E' }}
+              className="w-full border border-stone-300 px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-[#A9B89E]"
               required
             >
               {/* теж одразу у форматі бекенду */}
@@ -213,8 +210,7 @@ export function InputScreen({
               id="growthSpeed"
               value={growthSpeed}
               onChange={(e) => setGrowthSpeed(e.target.value)}
-              className="w-full border border-stone-300 px-3 py-2 bg-white focus:outline-none focus:ring-2"
-              style={{ focusRingColor: '#A9B89E' }}
+              className="w-full border border-stone-300 px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-[#A9B89E]"
               required
             >
               <option value="1">1 - Дуже повільна</option>
@@ -234,8 +230,7 @@ export function InputScreen({
               id="ecologicalRecovery"
               value={ecologicalRecovery}
               onChange={(e) => setEcologicalRecovery(e.target.value)}
-              className="w-full border border-stone-300 px-3 py-2 bg-white focus:outline-none focus:ring-2"
-              style={{ focusRingColor: '#A9B89E' }}
+              className="w-full border border-stone-300 px-3 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-[#A9B89E]"
               required
             >
               <option value="1">1 - Дуже повільна</option>

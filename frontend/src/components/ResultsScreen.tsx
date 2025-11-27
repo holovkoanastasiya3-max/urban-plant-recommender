@@ -13,7 +13,7 @@ type ResultsScreenProps = {
   onNavigateToForm: () => void;
 };
 
-export function ResultsScreen({ formData, plants, error, onBack, onPlantSelect, onNavigateHome, onNavigateToForm }: ResultsScreenProps) {
+export function ResultsScreen({ plants, error, onBack, onPlantSelect, onNavigateHome, onNavigateToForm }: ResultsScreenProps) {
 
   return (
     <div className="min-h-screen bg-stone-50 flex flex-col">
