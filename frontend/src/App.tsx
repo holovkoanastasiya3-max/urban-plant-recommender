@@ -94,7 +94,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-stone-50 flex flex-col">
+    <div className="min-h-screen flex flex-col">
       {isLoading && <LoadingLeaf />}
       
       <AnimatePresence mode="wait">
