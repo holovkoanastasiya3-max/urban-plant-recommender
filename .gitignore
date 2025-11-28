@@ -58,9 +58,6 @@ logs/
 *.sqlite
 *.sqlite3
 
-# Data files (test/demo data)
-backend/data/plants_chunk_*.json
-
 # OS
 Thumbs.db
 .DS_Store
