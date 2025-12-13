@@ -1,5 +1,15 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+import os
+
+# Завантаження змінних оточення з .env файлу
+try:
+    from dotenv import load_dotenv
+    # Завантажуємо .env файл з кореня проекту
+    env_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), '.env')
+    load_dotenv(env_path)
+except ImportError:
+    pass
 
 from src.models.request_models import RecommendRequest
 from src.recommender.engine import recommend_plants

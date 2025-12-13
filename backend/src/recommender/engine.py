@@ -1,7 +1,14 @@
 import sqlite3
 from typing import List, Dict, Optional
+import asyncio
 
 DB_PATH = "db/urban_plants.db"
+
+from src.ai.explanation_generator import (
+    get_cache_key,
+    get_cached_explanation,
+    generate_and_cache_explanation
+)
 
 
 # -----------------------------
@@ -66,6 +73,7 @@ def recommend_plants(
             p.id,
             p.scientific_name,
             p.common_name_ua,
+            p.image_url,
             t.cold_tolerance_c,
             t.drought_tolerance,
             t.light_requirement,
@@ -85,6 +93,17 @@ def recommend_plants(
     rows = cur.fetchall()
     conn.close()
 
+    # Параметри запиту для кешування
+    params = {
+        'soil_code': soil_code,
+        'min_temp_c': min_temp_c,
+        'drought': drought,
+        'light': light,
+        'biodiversity': biodiversity,
+        'growth': growth,
+        'recovery': recovery,
+    }
+
     results: List[Dict] = []
 
     for row in rows:
@@ -92,6 +111,7 @@ def recommend_plants(
             plant_id,
             scientific_name,
             common_name_ua,
+            image_url,
             cold,
             drought_db,
             light_db,
@@ -119,7 +139,7 @@ def recommend_plants(
             + 1.0 * soil_score
         ) / 6.6
 
-        # --- explanation
+        # --- explanation (просте)
         reasons = []
         if recovery_score > 0.8:
             reasons.append("швидке відновлення")
@@ -130,16 +150,45 @@ def recommend_plants(
         if soil_score > 0.8:
             reasons.append("ідеальна сумісність з типом ґрунту")
 
-        explanation = (
+        simple_explanation = (
             "Причини рекомендації: " + ", ".join(reasons) + "."
             if reasons else "Рослина відповідає заданим критеріям."
         )
+        
+        # Перевіряємо кеш для AI-пояснення
+        cache_key = get_cache_key(plant_id, params)
+        cached_ai_explanation = get_cached_explanation(plant_id, cache_key)
+        
+        if cached_ai_explanation:
+            print(f"[Engine] ✅ Знайдено AI-пояснення в кеші для рослини {plant_id} (key: {cache_key[:8]}...)")
+        else:
+            print(f"[Engine] ⚠️ AI-пояснення немає в кеші для рослини {plant_id} (key: {cache_key[:8]}...)")
+        
+        # Використовуємо AI-пояснення якщо є в кеші, інакше просте
+        explanation = cached_ai_explanation if cached_ai_explanation else simple_explanation
+        
+        # Гарантуємо, що пояснення завжди є
+        if not explanation or explanation.strip() == "":
+            explanation = "Рослина відповідає заданим критеріям."
+        
+        plant_data = {
+            'id': plant_id,
+            'scientific_name': scientific_name,
+            'common_name_ua': common_name_ua,
+            'cold_tolerance_c': cold,
+            'drought_tolerance': drought_db,
+            'light_requirement': light_db,
+            'biodiversity_support': biodiversity_db,
+            'growth_rate': growth_db,
+            'recovery_speed': recovery_db,
+        }
 
         results.append(
             {
                 "id": plant_id,
                 "scientific_name": scientific_name,
                 "common_name_ua": common_name_ua,
+                "image_url": image_url,
                 "score": round(float(total_score), 3),
                 "cold_tolerance_c": cold,
                 "drought_tolerance": drought_db,
@@ -151,8 +200,68 @@ def recommend_plants(
             }
         )
 
+    # Сортуємо перед обмеженням
     results.sort(key=lambda x: x["score"], reverse=True)
-    return results[:limit]
+    final_results = results[:limit]
+    
+    # Синхронно генеруємо AI-пояснення для топ-3 рослин без кешу
+    print(f"[Engine] Перевіряємо та генеруємо AI-пояснення для топ-3 рослин...")
+    print(f"[Engine] Параметри запиту: soil={params['soil_code']}, temp={params['min_temp_c']}, drought={params['drought']}, light={params['light']}, bio={params['biodiversity']}, growth={params['growth']}, recovery={params['recovery']}")
+    
+    # Оновлюємо пояснення для топ-3 рослин синхронно
+    for i, plant_result in enumerate(final_results[:3]):
+        plant_id = plant_result["id"]
+        cache_key = get_cache_key(plant_id, params)
+        cached_ai_explanation = get_cached_explanation(plant_id, cache_key)
+        
+        print(f"[Engine] Рослина {plant_id} ({plant_result['scientific_name']}): cache_key={cache_key[:16]}..., cached={'YES' if cached_ai_explanation else 'NO'}")
+        
+        if not cached_ai_explanation:
+            print(f"[Engine] Генеруємо AI-пояснення для рослини {plant_id} ({plant_result['scientific_name']}) - топ {i+1} (синхронно)...")
+            # Створюємо plant_data для генерації
+            plant_data = {
+                'id': plant_id,
+                'scientific_name': plant_result['scientific_name'],
+                'common_name_ua': plant_result['common_name_ua'],
+                'cold_tolerance_c': plant_result['cold_tolerance_c'],
+                'drought_tolerance': plant_result['drought_tolerance'],
+                'light_requirement': plant_result['light_requirement'],
+                'biodiversity_support': plant_result['biodiversity_support'],
+                'growth_rate': plant_result['growth_rate'],
+                'recovery_speed': plant_result['recovery_speed'],
+            }
+            
+            # Синхронно генеруємо та зберігаємо пояснення
+            try:
+                loop = asyncio.new_event_loop()
+                asyncio.set_event_loop(loop)
+                loop.run_until_complete(
+                    generate_and_cache_explanation(plant_data, params)
+                )
+                loop.close()
+                
+                # Оновлюємо пояснення в результаті
+                updated_explanation = get_cached_explanation(plant_id, cache_key)
+                if updated_explanation:
+                    # Знаходимо відповідний результат і оновлюємо його
+                    for result in final_results:
+                        if result["id"] == plant_id:
+                            result["explanation"] = updated_explanation
+                            print(f"[Engine] ✅ Оновлено пояснення для рослини {plant_id} в результаті")
+                            break
+            except Exception as e:
+                print(f"[Engine] ❌ Помилка генерації AI-пояснення: {type(e).__name__}: {e}")
+                import traceback
+                traceback.print_exc()
+        else:
+            print(f"[Engine] ✅ AI-пояснення вже є в кеші для рослини {plant_id}")
+            # Оновлюємо пояснення в результаті з кешу
+            for result in final_results:
+                if result["id"] == plant_id:
+                    result["explanation"] = cached_ai_explanation
+                    break
+    
+    return final_results
 
 
 # -----------------------------

@@ -59,5 +59,17 @@ export async function getRecommendations(
   }
 
   const data: RecommendResponse = await response.json();
-  return data.results ?? [];
+  const results = data.results ?? [];
+  
+  // Діагностика: перевірка пояснень
+  if (results.length > 0) {
+    console.log('[API] Received', results.length, 'plants');
+    results.slice(0, 3).forEach((plant, idx) => {
+      const exp = plant.explanation || 'NO EXPLANATION';
+      const isAI = exp && !exp.startsWith('Причини рекомендації:') && !exp.startsWith('Рослина відповідає');
+      console.log(`[API] Plant ${idx + 1} (${plant.scientific_name}): AI=${isAI}, length=${exp.length}, preview="${exp.substring(0, 60)}..."`);
+    });
+  }
+  
+  return results;
 }
