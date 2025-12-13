@@ -5,6 +5,7 @@ export type BackendPlant = {
   id: number;
   scientific_name: string;
   common_name_ua: string;
+  image_url?: string;
   score: number;
   cold_tolerance_c: number;
   drought_tolerance: number;
@@ -12,7 +13,7 @@ export type BackendPlant = {
   biodiversity_support: number;
   growth_rate: number;
   recovery_speed: number;
-  explanation: string;
+  explanation?: string;
 };
 
 // Helper functions for formatting
@@ -84,6 +85,7 @@ export function adaptPlant(backendPlant: BackendPlant): Plant {
     id: String(backendPlant.id),
     scientificName: backendPlant.scientific_name,
     commonName: backendPlant.common_name_ua,
+    imageUrl: backendPlant.image_url,
     coldTolerance: formatColdTolerance(backendPlant.cold_tolerance_c),
     pollutionTolerance: formatPollutionTolerance(backendPlant.score),
     recoverySpeed: formatRecoverySpeed(backendPlant.recovery_speed),
@@ -97,7 +99,7 @@ export function adaptPlant(backendPlant: BackendPlant): Plant {
       backendPlant.recovery_speed,
       backendPlant.biodiversity_support
     ),
-    explanation: backendPlant.explanation,
+    explanation: backendPlant.explanation || "Рослина відповідає заданим критеріям.",
   };
 }
 

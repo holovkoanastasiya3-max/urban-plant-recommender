@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS soil_types (
 INSERT OR IGNORE INTO soil_types (code, name_ua) VALUES
     ('chernozem',    'Чорнозем'),
     ('grey_forest',  'Сірий лісовий'),
-    ('podzolic',     'Дерново-підзолистий'),
+    ('turf_podzolic',     'Дерново-підзолистий'),
     ('meadow',       'Лучний'),
     ('solonets',     'Солонці'),
     ('sandy',        'Піщовик'),
@@ -29,6 +29,7 @@ CREATE TABLE IF NOT EXISTS plants (
     genus           TEXT,
     family          TEXT,
     source_key      TEXT,            -- ID у зовнішній базі
+    image_url       TEXT,            -- посилання на зображення рослини
     is_active       INTEGER NOT NULL DEFAULT 1
 );
 
@@ -67,3 +68,20 @@ CREATE TABLE IF NOT EXISTS plant_soil_tolerance (
     FOREIGN KEY (plant_id)  REFERENCES plants(id)     ON DELETE CASCADE,
     FOREIGN KEY (soil_code) REFERENCES soil_types(code) ON DELETE RESTRICT
 );
+
+------------------------------------------------------------
+-- 5. Кеш AI-пояснень
+------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS plant_explanations_cache (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    plant_id INTEGER NOT NULL,
+    cache_key TEXT NOT NULL UNIQUE,
+    explanation TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (plant_id) REFERENCES plants(id) ON DELETE CASCADE
+);
+
+CREATE INDEX IF NOT EXISTS idx_explanations_cache_key 
+    ON plant_explanations_cache(cache_key);
+CREATE INDEX IF NOT EXISTS idx_explanations_plant_id 
+    ON plant_explanations_cache(plant_id);

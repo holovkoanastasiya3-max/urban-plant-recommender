@@ -22,6 +22,7 @@ export type Plant = {
   id: string;
   scientificName: string;
   commonName: string;
+  imageUrl?: string;
   coldTolerance: string;
   pollutionTolerance: string;
   recoverySpeed: string;

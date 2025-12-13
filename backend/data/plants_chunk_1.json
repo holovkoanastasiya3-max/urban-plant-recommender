@@ -1,2783 +1,1520 @@
 [
   {
-    "scientific_name": "Plantus Umfbjfgh",
-    "common_name_ua": "Рослина 0",
-    "cold_tolerance_c": 2,
+    "scientific_name": "Tilia cordata",
+    "common_name_ua": "Липа дрібнолиста",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 3,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 5,
+    "growth_rate": 4,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "chernozem",
+      "grey_forest",
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Tilia_cordata.jpg"
+  },
+  {
+    "scientific_name": "Acer platanoides",
+    "common_name_ua": "Клен гостролистий",
+    "cold_tolerance_c": -32,
     "drought_tolerance": 3,
     "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
+    "biodiversity_support": 4,
+    "growth_rate": 4,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "chernozem",
+      "grey_forest",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Acer_platanoides.jpg"
+  },
+  {
+    "scientific_name": "Quercus robur",
+    "common_name_ua": "Дуб звичайний",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 5,
+    "growth_rate": 2,
+    "recovery_speed": 2,
+    "soil_tolerance": [
+      "chernozem",
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Quercus_robur.jpg"
+  },
+  {
+    "scientific_name": "Betula pendula",
+    "common_name_ua": "Береза повисла",
+    "cold_tolerance_c": -35,
+    "drought_tolerance": 2,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 4,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "sandy",
+      "turf_podzolic",
+      "grey_forest",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Betula_pendula.jpg"
+  },
+  {
+    "scientific_name": "Pinus sylvestris",
+    "common_name_ua": "Сосна звичайна",
+    "cold_tolerance_c": -40,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "sandy",
+      "turf_podzolic",
+      "grey_forest"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pinus_sylvestris.jpg"
+  },
+  {
+    "scientific_name": "Picea abies",
+    "common_name_ua": "Ялина європейська",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 2,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 2,
+    "soil_tolerance": [
+      "grey_forest",
+      "turf_podzolic"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Picea_abies.jpg"
+  },
+  {
+    "scientific_name": "Fraxinus excelsior",
+    "common_name_ua": "Ясен звичайний",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 4,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "chernozem",
+      "grey_forest",
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fraxinus_excelsior.jpg"
+  },
+  {
+    "scientific_name": "Carpinus betulus",
+    "common_name_ua": "Граб звичайний",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 4,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "grey_forest",
+      "chernozem",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carpinus_betulus.jpg"
+  },
+  {
+    "scientific_name": "Acer campestre",
+    "common_name_ua": "Клен польовий",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "chernozem",
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Acer_campestre.jpg"
+  },
+  {
+    "scientific_name": "Acer pseudoplatanus",
+    "common_name_ua": "Клен явір",
+    "cold_tolerance_c": -28,
+    "drought_tolerance": 3,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 4,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Acer_pseudoplatanus.jpg"
+  },
+  {
+    "scientific_name": "Populus tremula",
+    "common_name_ua": "Осика",
+    "cold_tolerance_c": -35,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 5,
+    "recovery_speed": 5,
+    "soil_tolerance": [
+      "turf_podzolic",
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Populus_tremula.jpg"
+  },
+  {
+    "scientific_name": "Populus nigra",
+    "common_name_ua": "Тополя чорна",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 5,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Populus_nigra.jpg"
+  },
+  {
+    "scientific_name": "Populus alba",
+    "common_name_ua": "Тополя біла",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 4,
     "recovery_speed": 4,
     "soil_tolerance": [
       "sandy",
-      "solonets",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Dwqwllaw",
-    "common_name_ua": "Рослина 1",
-    "cold_tolerance_c": -1,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 2,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Gfznrnwb",
-    "common_name_ua": "Рослина 2",
-    "cold_tolerance_c": -45,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 3,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "podzolic",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Sbqqdacx",
-    "common_name_ua": "Рослина 3",
-    "cold_tolerance_c": -5,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 3,
-    "recovery_speed": 2,
-    "soil_tolerance": [
       "disturbed",
-      "solonets"
-    ]
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Populus_alba.jpg"
   },
   {
-    "scientific_name": "Plantus Dpesshsq",
-    "common_name_ua": "Рослина 4",
-    "cold_tolerance_c": -1,
-    "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "chernozem",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Romaxrgy",
-    "common_name_ua": "Рослина 5",
-    "cold_tolerance_c": 3,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Vsoxgjig",
-    "common_name_ua": "Рослина 6",
-    "cold_tolerance_c": -29,
+    "scientific_name": "Alnus glutinosa",
+    "common_name_ua": "Вільха чорна",
+    "cold_tolerance_c": -25,
     "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 3,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "disturbed",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Tvwlfuia",
-    "common_name_ua": "Рослина 7",
-    "cold_tolerance_c": -38,
-    "drought_tolerance": 2,
     "light_requirement": "full_sun",
     "biodiversity_support": 4,
-    "growth_rate": 3,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Xmmlkefx",
-    "common_name_ua": "Рослина 8",
-    "cold_tolerance_c": -44,
-    "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
     "growth_rate": 4,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "grey_forest",
-      "chernozem",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ndlksvbv",
-    "common_name_ua": "Рослина 9",
-    "cold_tolerance_c": -13,
-    "drought_tolerance": 3,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 3,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ychwwstt",
-    "common_name_ua": "Рослина 10",
-    "cold_tolerance_c": -39,
-    "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 5,
-    "growth_rate": 4,
-    "recovery_speed": 2,
+    "recovery_speed": 3,
     "soil_tolerance": [
       "meadow",
+      "solonets"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Alnus_glutinosa.jpg"
+  },
+  {
+    "scientific_name": "Salix alba",
+    "common_name_ua": "Верба біла",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 1,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 4,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "meadow",
+      "solonets",
       "disturbed"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Salix_alba.jpg"
   },
   {
-    "scientific_name": "Plantus Qjdxjnrj",
-    "common_name_ua": "Рослина 11",
-    "cold_tolerance_c": -15,
-    "drought_tolerance": 4,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 3,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ovxrulqa",
-    "common_name_ua": "Рослина 12",
-    "cold_tolerance_c": -22,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "meadow",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Uyeagomz",
-    "common_name_ua": "Рослина 13",
-    "cold_tolerance_c": -18,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 4,
-    "growth_rate": 3,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "disturbed",
-      "grey_forest",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ikxibpzm",
-    "common_name_ua": "Рослина 14",
-    "cold_tolerance_c": -24,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 3,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "podzolic",
-      "solonets",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Mhcpxzyx",
-    "common_name_ua": "Рослина 15",
-    "cold_tolerance_c": -3,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 4,
-    "growth_rate": 3,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "chernozem",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Vyfywypg",
-    "common_name_ua": "Рослина 16",
-    "cold_tolerance_c": -10,
-    "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 4,
-    "growth_rate": 5,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "podzolic",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Jtjrdgxh",
-    "common_name_ua": "Рослина 17",
-    "cold_tolerance_c": -20,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 2,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "solonets",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Aswmulms",
-    "common_name_ua": "Рослина 18",
-    "cold_tolerance_c": -27,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Idbbvglf",
-    "common_name_ua": "Рослина 19",
-    "cold_tolerance_c": -17,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 2,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Yjzwkosh",
-    "common_name_ua": "Рослина 20",
-    "cold_tolerance_c": -12,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 1,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "grey_forest",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Tmaimkdv",
-    "common_name_ua": "Рослина 21",
-    "cold_tolerance_c": -37,
-    "drought_tolerance": 2,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 3,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "grey_forest",
-      "chernozem",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Onjwuizb",
-    "common_name_ua": "Рослина 22",
-    "cold_tolerance_c": -22,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ruuwukbl",
-    "common_name_ua": "Рослина 23",
+    "scientific_name": "Ulmus laevis",
+    "common_name_ua": "В'яз гладенький",
     "cold_tolerance_c": -28,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulmus_laevis.jpg"
+  },
+  {
+    "scientific_name": "Ulmus minor",
+    "common_name_ua": "В'яз дрібнолистий",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "chernozem",
+      "grey_forest"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ulmus_minor.jpg"
+  },
+  {
+    "scientific_name": "Fagus sylvatica",
+    "common_name_ua": "Бук лісовий",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 2,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 4,
     "growth_rate": 2,
     "recovery_speed": 2,
     "soil_tolerance": [
-      "grey_forest"
-    ]
+      "grey_forest",
+      "turf_podzolic"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fagus_sylvatica.jpg"
   },
   {
-    "scientific_name": "Plantus Rktzwszv",
-    "common_name_ua": "Рослина 24",
-    "cold_tolerance_c": -45,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Tsycqxqb",
-    "common_name_ua": "Рослина 25",
-    "cold_tolerance_c": -14,
-    "drought_tolerance": 4,
+    "scientific_name": "Aesculus hippocastanum",
+    "common_name_ua": "Каштан кінський",
+    "cold_tolerance_c": -23,
+    "drought_tolerance": 2,
     "light_requirement": "full_sun",
     "biodiversity_support": 3,
-    "growth_rate": 1,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "meadow",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Frvupjpn",
-    "common_name_ua": "Рослина 26",
-    "cold_tolerance_c": -26,
-    "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 5,
+    "growth_rate": 3,
     "recovery_speed": 2,
     "soil_tolerance": [
-      "solonets",
+      "chernozem",
+      "grey_forest",
       "disturbed"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Aesculus_hippocastanum.jpg"
   },
   {
-    "scientific_name": "Plantus Rertapja",
-    "common_name_ua": "Рослина 27",
+    "scientific_name": "Robinia pseudoacacia",
+    "common_name_ua": "Робінія звичайна",
     "cold_tolerance_c": -28,
     "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 2,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "disturbed",
-      "podzolic",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Jwvkblwj",
-    "common_name_ua": "Рослина 28",
-    "cold_tolerance_c": -2,
-    "drought_tolerance": 1,
     "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "solonets",
-      "grey_forest",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Pqegryns",
-    "common_name_ua": "Рослина 29",
-    "cold_tolerance_c": -39,
-    "drought_tolerance": 2,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 4,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "podzolic",
-      "disturbed",
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Bwkiwovn",
-    "common_name_ua": "Рослина 30",
-    "cold_tolerance_c": -23,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 1,
-    "growth_rate": 1,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "solonets",
-      "disturbed",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Dixqvlnz",
-    "common_name_ua": "Рослина 31",
-    "cold_tolerance_c": 2,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 4,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "disturbed",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Kgmfxdvx",
-    "common_name_ua": "Рослина 32",
-    "cold_tolerance_c": -7,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "meadow",
-      "sandy",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Fdsbereu",
-    "common_name_ua": "Рослина 33",
-    "cold_tolerance_c": -29,
-    "drought_tolerance": 5,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 3,
+    "biodiversity_support": 4,
+    "growth_rate": 5,
     "recovery_speed": 5,
     "soil_tolerance": [
-      "grey_forest",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Hmjipxvc",
-    "common_name_ua": "Рослина 34",
-    "cold_tolerance_c": 4,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Gwxselgw",
-    "common_name_ua": "Рослина 35",
-    "cold_tolerance_c": 3,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 2,
-    "recovery_speed": 4,
-    "soil_tolerance": [
       "disturbed",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ahlafotc",
-    "common_name_ua": "Рослина 36",
-    "cold_tolerance_c": -2,
-    "drought_tolerance": 5,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 3,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Wvxeqrss",
-    "common_name_ua": "Рослина 37",
-    "cold_tolerance_c": -40,
-    "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 4,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "meadow",
-      "disturbed",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Lnvwwomm",
-    "common_name_ua": "Рослина 38",
-    "cold_tolerance_c": -26,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 5,
-    "growth_rate": 5,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "solonets",
+      "sandy",
       "chernozem",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Iccfepja",
-    "common_name_ua": "Рослина 39",
-    "cold_tolerance_c": -32,
-    "drought_tolerance": 2,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 4,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "podzolic",
       "grey_forest"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Robinia_pseudoacacia.jpg"
   },
   {
-    "scientific_name": "Plantus Etkxzmvn",
-    "common_name_ua": "Рослина 40",
-    "cold_tolerance_c": -10,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 1,
-    "growth_rate": 3,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "sandy",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Gkjqkzuy",
-    "common_name_ua": "Рослина 41",
-    "cold_tolerance_c": -22,
-    "drought_tolerance": 3,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 1,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "meadow",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Xgnnygic",
-    "common_name_ua": "Рослина 42",
-    "cold_tolerance_c": -41,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 4,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Jhvlxaue",
-    "common_name_ua": "Рослина 43",
-    "cold_tolerance_c": -22,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 5,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Slhxgxuf",
-    "common_name_ua": "Рослина 44",
-    "cold_tolerance_c": 4,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 3,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "sandy",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Prjwqyyt",
-    "common_name_ua": "Рослина 45",
-    "cold_tolerance_c": -33,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 4,
-    "growth_rate": 2,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "disturbed",
-      "solonets",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Xpthkguq",
-    "common_name_ua": "Рослина 46",
+    "scientific_name": "Sorbus aucuparia",
+    "common_name_ua": "Горобина звичайна",
     "cold_tolerance_c": -35,
-    "drought_tolerance": 1,
+    "drought_tolerance": 3,
     "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 1,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Gtfgdayp",
-    "common_name_ua": "Рослина 47",
-    "cold_tolerance_c": -24,
-    "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
     "biodiversity_support": 4,
     "growth_rate": 3,
     "recovery_speed": 3,
-    "soil_tolerance": [
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Vjbysuhw",
-    "common_name_ua": "Рослина 48",
-    "cold_tolerance_c": 3,
-    "drought_tolerance": 4,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "chernozem",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ygoulcpj",
-    "common_name_ua": "Рослина 49",
-    "cold_tolerance_c": -41,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 2,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Dizcvtvp",
-    "common_name_ua": "Рослина 50",
-    "cold_tolerance_c": -12,
-    "drought_tolerance": 5,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 1,
-    "recovery_speed": 5,
     "soil_tolerance": [
       "grey_forest",
-      "chernozem",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Bijmuhlc",
-    "common_name_ua": "Рослина 51",
-    "cold_tolerance_c": -42,
-    "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 5,
-    "growth_rate": 2,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "podzolic",
       "meadow",
-      "solonets"
-    ]
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sorbus_aucuparia.jpg"
   },
   {
-    "scientific_name": "Plantus Tyipjonu",
-    "common_name_ua": "Рослина 52",
-    "cold_tolerance_c": 5,
+    "scientific_name": "Sorbus intermedia",
+    "common_name_ua": "Горобина проміжна",
+    "cold_tolerance_c": -25,
     "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 5,
-    "recovery_speed": 1,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sorbus_intermedia.jpg"
+  },
+  {
+    "scientific_name": "Prunus avium",
+    "common_name_ua": "Вишня пташина",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 3,
+    "recovery_speed": 3,
     "soil_tolerance": [
       "chernozem",
-      "disturbed"
-    ]
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prunus_avium.jpg"
   },
   {
-    "scientific_name": "Plantus Ryjcpipb",
-    "common_name_ua": "Рослина 53",
-    "cold_tolerance_c": -23,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
+    "scientific_name": "Prunus cerasus",
+    "common_name_ua": "Вишня звичайна",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
     "biodiversity_support": 4,
-    "growth_rate": 2,
-    "recovery_speed": 1,
+    "growth_rate": 3,
+    "recovery_speed": 3,
     "soil_tolerance": [
-      "chernozem"
-    ]
+      "chernozem",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Prunus_cerasus.jpg"
   },
   {
-    "scientific_name": "Plantus Jgfcvlab",
-    "common_name_ua": "Рослина 54",
-    "cold_tolerance_c": -18,
-    "drought_tolerance": 1,
+    "scientific_name": "Malus domestica",
+    "common_name_ua": "Яблуня домашня",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "chernozem",
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Malus_domestica.jpg"
+  },
+  {
+    "scientific_name": "Pyrus communis",
+    "common_name_ua": "Груша звичайна",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "chernozem",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pyrus_communis.jpg"
+  },
+  {
+    "scientific_name": "Crataegus monogyna",
+    "common_name_ua": "Глід одноматочковий",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 5,
+    "growth_rate": 3,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "grey_forest",
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crataegus_monogyna.jpg"
+  },
+  {
+    "scientific_name": "Crataegus laevigata",
+    "common_name_ua": "Глід звичайний",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 5,
+    "growth_rate": 3,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crataegus_laevigata.jpg"
+  },
+  {
+    "scientific_name": "Sambucus nigra",
+    "common_name_ua": "Бузина чорна",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 4,
+    "growth_rate": 4,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "disturbed",
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sambucus_nigra.jpg"
+  },
+  {
+    "scientific_name": "Corylus avellana",
+    "common_name_ua": "Ліщина звичайна",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
     "light_requirement": "partial_shade",
     "biodiversity_support": 4,
     "growth_rate": 3,
-    "recovery_speed": 5,
+    "recovery_speed": 3,
     "soil_tolerance": [
-      "solonets",
-      "chernozem"
-    ]
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Corylus_avellana.jpg"
   },
   {
-    "scientific_name": "Plantus Zokuolfc",
-    "common_name_ua": "Рослина 55",
-    "cold_tolerance_c": -45,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 1,
-    "growth_rate": 4,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "chernozem",
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Urdmtttd",
-    "common_name_ua": "Рослина 56",
-    "cold_tolerance_c": -38,
+    "scientific_name": "Cornus sanguinea",
+    "common_name_ua": "Дерен кривавочервоний",
+    "cold_tolerance_c": -25,
     "drought_tolerance": 4,
     "light_requirement": "full_sun",
     "biodiversity_support": 4,
-    "growth_rate": 4,
-    "recovery_speed": 2,
+    "growth_rate": 3,
+    "recovery_speed": 4,
     "soil_tolerance": [
-      "disturbed"
-    ]
+      "grey_forest",
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cornus_sanguinea.jpg"
   },
   {
-    "scientific_name": "Plantus Wdpjczva",
-    "common_name_ua": "Рослина 57",
-    "cold_tolerance_c": -42,
-    "drought_tolerance": 3,
+    "scientific_name": "Cornus alba",
+    "common_name_ua": "Дерен білий",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 4,
     "light_requirement": "full_sun",
-    "biodiversity_support": 1,
-    "growth_rate": 5,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "podzolic",
-      "sandy",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Jsoksjkw",
-    "common_name_ua": "Рослина 58",
-    "cold_tolerance_c": -10,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 5,
+    "biodiversity_support": 4,
+    "growth_rate": 3,
     "recovery_speed": 4,
     "soil_tolerance": [
+      "disturbed",
       "meadow"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cornus_alba.jpg"
   },
   {
-    "scientific_name": "Plantus Byuhggln",
-    "common_name_ua": "Рослина 59",
-    "cold_tolerance_c": 0,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 2,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Xhzkcmax",
-    "common_name_ua": "Рослина 60",
-    "cold_tolerance_c": 3,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 4,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ctxkzdav",
-    "common_name_ua": "Рослина 61",
-    "cold_tolerance_c": -40,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "sandy",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Sptptmts",
-    "common_name_ua": "Рослина 62",
+    "scientific_name": "Ligustrum vulgare",
+    "common_name_ua": "Бирючина звичайна",
     "cold_tolerance_c": -20,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 1,
-    "growth_rate": 2,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "chernozem",
-      "solonets",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Hubhebhc",
-    "common_name_ua": "Рослина 63",
-    "cold_tolerance_c": -26,
     "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 4,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ajdowrom",
-    "common_name_ua": "Рослина 64",
-    "cold_tolerance_c": 3,
-    "drought_tolerance": 2,
     "light_requirement": "partial_shade",
     "biodiversity_support": 3,
     "growth_rate": 3,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "podzolic",
-      "disturbed",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Qexxmvab",
-    "common_name_ua": "Рослина 65",
-    "cold_tolerance_c": -43,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 1,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Pribiqkc",
-    "common_name_ua": "Рослина 66",
-    "cold_tolerance_c": -17,
-    "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 5,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Lszjqqiy",
-    "common_name_ua": "Рослина 67",
-    "cold_tolerance_c": -13,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 1,
+    "recovery_speed": 4,
     "soil_tolerance": [
       "disturbed",
-      "meadow",
-      "sandy"
-    ]
+      "grey_forest"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ligustrum_vulgare.jpg"
   },
   {
-    "scientific_name": "Plantus Cextihtc",
-    "common_name_ua": "Рослина 68",
-    "cold_tolerance_c": -27,
+    "scientific_name": "Spiraea × vanhouttei",
+    "common_name_ua": "Спірея Вангута",
+    "cold_tolerance_c": -28,
     "drought_tolerance": 3,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
     "growth_rate": 4,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spiraea_×_vanhouttei.jpg"
+  },
+  {
+    "scientific_name": "Rosa canina",
+    "common_name_ua": "Шипшина собача",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 5,
+    "growth_rate": 3,
     "recovery_speed": 4,
     "soil_tolerance": [
       "meadow",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Pashsgjs",
-    "common_name_ua": "Рослина 69",
-    "cold_tolerance_c": -7,
-    "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 3,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Nwpaluwv",
-    "common_name_ua": "Рослина 70",
-    "cold_tolerance_c": -4,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 4,
-    "growth_rate": 2,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Mdztvnwp",
-    "common_name_ua": "Рослина 71",
-    "cold_tolerance_c": -36,
-    "drought_tolerance": 2,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 3,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "grey_forest",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Uhtmxjmn",
-    "common_name_ua": "Рослина 72",
-    "cold_tolerance_c": -34,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "grey_forest",
       "disturbed",
       "sandy"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_canina.jpg"
   },
   {
-    "scientific_name": "Plantus Mlziwgwi",
-    "common_name_ua": "Рослина 73",
-    "cold_tolerance_c": -16,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 5,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "chernozem",
-      "grey_forest",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Djsxutua",
-    "common_name_ua": "Рослина 74",
-    "cold_tolerance_c": -34,
-    "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 4,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "meadow",
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Flmsxnnn",
-    "common_name_ua": "Рослина 75",
-    "cold_tolerance_c": 3,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "sandy",
-      "podzolic",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Hppkwdrd",
-    "common_name_ua": "Рослина 76",
-    "cold_tolerance_c": -35,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 3,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Xeeugetr",
-    "common_name_ua": "Рослина 77",
-    "cold_tolerance_c": -27,
-    "drought_tolerance": 2,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "podzolic",
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Euchgjem",
-    "common_name_ua": "Рослина 78",
-    "cold_tolerance_c": -12,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 4,
-    "growth_rate": 5,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "sandy",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Mgtqbjxi",
-    "common_name_ua": "Рослина 79",
-    "cold_tolerance_c": -15,
-    "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "disturbed",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Kxsvrnqy",
-    "common_name_ua": "Рослина 80",
-    "cold_tolerance_c": -4,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 1,
-    "growth_rate": 3,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Hmrpnbuv",
-    "common_name_ua": "Рослина 81",
-    "cold_tolerance_c": -41,
-    "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 3,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "sandy",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Sgfnsdge",
-    "common_name_ua": "Рослина 82",
-    "cold_tolerance_c": 4,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "podzolic",
-      "solonets",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Lmfthayd",
-    "common_name_ua": "Рослина 83",
-    "cold_tolerance_c": -1,
-    "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 1,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Cnvvqrfo",
-    "common_name_ua": "Рослина 84",
-    "cold_tolerance_c": -38,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 5,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "grey_forest",
-      "meadow",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ersvxcvc",
-    "common_name_ua": "Рослина 85",
-    "cold_tolerance_c": 5,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "sandy",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Gctgngle",
-    "common_name_ua": "Рослина 86",
-    "cold_tolerance_c": -44,
-    "drought_tolerance": 5,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 3,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Giiyiaft",
-    "common_name_ua": "Рослина 87",
-    "cold_tolerance_c": -22,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "grey_forest",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Gioayfoi",
-    "common_name_ua": "Рослина 88",
-    "cold_tolerance_c": -10,
-    "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "grey_forest",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Obhylisa",
-    "common_name_ua": "Рослина 89",
-    "cold_tolerance_c": -7,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 4,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "solonets",
-      "disturbed",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Bafqhkqm",
-    "common_name_ua": "Рослина 90",
-    "cold_tolerance_c": 4,
-    "drought_tolerance": 2,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 3,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "chernozem",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Vgbwpigt",
-    "common_name_ua": "Рослина 91",
-    "cold_tolerance_c": -34,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 5,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "solonets",
-      "sandy",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Piocrcrw",
-    "common_name_ua": "Рослина 92",
-    "cold_tolerance_c": -33,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 3,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "solonets",
-      "chernozem",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Cerumcby",
-    "common_name_ua": "Рослина 93",
-    "cold_tolerance_c": -38,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Zkbueqol",
-    "common_name_ua": "Рослина 94",
-    "cold_tolerance_c": -27,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 4,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "sandy",
-      "chernozem",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ortzkvpb",
-    "common_name_ua": "Рослина 95",
-    "cold_tolerance_c": -34,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 2,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Tambzsrc",
-    "common_name_ua": "Рослина 96",
-    "cold_tolerance_c": -10,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "chernozem",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Erzevief",
-    "common_name_ua": "Рослина 97",
-    "cold_tolerance_c": -27,
-    "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Zliquqod",
-    "common_name_ua": "Рослина 98",
-    "cold_tolerance_c": 2,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 1,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Hznmmiup",
-    "common_name_ua": "Рослина 99",
-    "cold_tolerance_c": -27,
+    "scientific_name": "Rosa rugosa",
+    "common_name_ua": "Роза зморшкувата",
+    "cold_tolerance_c": -30,
     "drought_tolerance": 4,
     "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 3,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Tuulcdgq",
-    "common_name_ua": "Рослина 100",
-    "cold_tolerance_c": -10,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 2,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "sandy",
-      "solonets",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Uotcofsc",
-    "common_name_ua": "Рослина 101",
-    "cold_tolerance_c": 0,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 2,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "podzolic",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ypqqpoff",
-    "common_name_ua": "Рослина 102",
-    "cold_tolerance_c": 4,
-    "drought_tolerance": 4,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 2,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "solonets",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Xvouqjms",
-    "common_name_ua": "Рослина 103",
-    "cold_tolerance_c": -44,
-    "drought_tolerance": 5,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 4,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "meadow",
-      "solonets",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Pzaoldgv",
-    "common_name_ua": "Рослина 104",
-    "cold_tolerance_c": -26,
-    "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
     "biodiversity_support": 4,
     "growth_rate": 3,
     "recovery_speed": 4,
     "soil_tolerance": [
+      "sandy",
       "disturbed"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa_rugosa.jpg"
   },
   {
-    "scientific_name": "Plantus Agsxuwpw",
-    "common_name_ua": "Рослина 105",
-    "cold_tolerance_c": -26,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Qicaexzo",
-    "common_name_ua": "Рослина 106",
-    "cold_tolerance_c": -37,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ikkjdeov",
-    "common_name_ua": "Рослина 107",
-    "cold_tolerance_c": -42,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Mfqoozyv",
-    "common_name_ua": "Рослина 108",
-    "cold_tolerance_c": -3,
+    "scientific_name": "Berberis thunbergii",
+    "common_name_ua": "Барбарис Тунберга",
+    "cold_tolerance_c": -25,
     "drought_tolerance": 3,
-    "light_requirement": "partial_shade",
+    "light_requirement": "full_sun",
     "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "sandy",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Aqbsexij",
-    "common_name_ua": "Рослина 109",
-    "cold_tolerance_c": -32,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "sandy",
-      "disturbed",
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Foqiboxu",
-    "common_name_ua": "Рослина 110",
-    "cold_tolerance_c": -14,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 4,
     "growth_rate": 3,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "sandy",
-      "podzolic",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Jpiflxty",
-    "common_name_ua": "Рослина 111",
-    "cold_tolerance_c": -37,
-    "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
     "recovery_speed": 3,
     "soil_tolerance": [
       "disturbed",
-      "grey_forest",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Wssltivr",
-    "common_name_ua": "Рослина 112",
-    "cold_tolerance_c": -23,
-    "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "chernozem",
-      "solonets",
       "meadow"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Berberis_thunbergii.jpg"
   },
   {
-    "scientific_name": "Plantus Dcvxxoqb",
-    "common_name_ua": "Рослина 113",
-    "cold_tolerance_c": -12,
+    "scientific_name": "Philadelphus coronarius",
+    "common_name_ua": "Чубушник вінцевий",
+    "cold_tolerance_c": -25,
     "drought_tolerance": 2,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 2,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Rkyyfdyr",
-    "common_name_ua": "Рослина 114",
-    "cold_tolerance_c": -6,
-    "drought_tolerance": 3,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 4,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "meadow",
-      "grey_forest",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Lcwpecbg",
-    "common_name_ua": "Рослина 115",
-    "cold_tolerance_c": -19,
-    "drought_tolerance": 3,
     "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 4,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "sandy",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Rtqkknfe",
-    "common_name_ua": "Рослина 116",
-    "cold_tolerance_c": -1,
-    "drought_tolerance": 3,
-    "light_requirement": "partial_shade",
     "biodiversity_support": 4,
-    "growth_rate": 2,
+    "growth_rate": 3,
     "recovery_speed": 3,
-    "soil_tolerance": [
-      "podzolic",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Pzgqyjxt",
-    "common_name_ua": "Рослина 117",
-    "cold_tolerance_c": -9,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "chernozem",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Gaqckrty",
-    "common_name_ua": "Рослина 118",
-    "cold_tolerance_c": 5,
-    "drought_tolerance": 2,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "grey_forest",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Mwgiuigz",
-    "common_name_ua": "Рослина 119",
-    "cold_tolerance_c": -43,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 3,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "podzolic",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Udxqcqoy",
-    "common_name_ua": "Рослина 120",
-    "cold_tolerance_c": -45,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 1,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Wgujkupj",
-    "common_name_ua": "Рослина 121",
-    "cold_tolerance_c": -6,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 5,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "meadow",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Hunujzjy",
-    "common_name_ua": "Рослина 122",
-    "cold_tolerance_c": -5,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Mctnumgz",
-    "common_name_ua": "Рослина 123",
-    "cold_tolerance_c": -36,
-    "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 2,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "solonets",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Nvyqzydn",
-    "common_name_ua": "Рослина 124",
-    "cold_tolerance_c": -23,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Vomazcsx",
-    "common_name_ua": "Рослина 125",
-    "cold_tolerance_c": -36,
-    "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 3,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "podzolic",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Rmqhishp",
-    "common_name_ua": "Рослина 126",
-    "cold_tolerance_c": -23,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 2,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "podzolic",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Igeiiubc",
-    "common_name_ua": "Рослина 127",
-    "cold_tolerance_c": -31,
-    "drought_tolerance": 4,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 3,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Hkhtzquc",
-    "common_name_ua": "Рослина 128",
-    "cold_tolerance_c": -39,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Aazxnnpw",
-    "common_name_ua": "Рослина 129",
-    "cold_tolerance_c": -43,
-    "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 2,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "grey_forest",
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Qpfhsexz",
-    "common_name_ua": "Рослина 130",
-    "cold_tolerance_c": -7,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 4,
-    "recovery_speed": 4,
     "soil_tolerance": [
       "disturbed",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Wxfrjhkt",
-    "common_name_ua": "Рослина 131",
-    "cold_tolerance_c": 3,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 4,
-    "growth_rate": 4,
-    "recovery_speed": 3,
-    "soil_tolerance": [
       "grey_forest"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Philadelphus_coronarius.jpg"
   },
   {
-    "scientific_name": "Plantus Ojueahai",
-    "common_name_ua": "Рослина 132",
-    "cold_tolerance_c": -40,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 5,
-    "growth_rate": 5,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Nznahbgo",
-    "common_name_ua": "Рослина 133",
-    "cold_tolerance_c": -17,
+    "scientific_name": "Syringa vulgaris",
+    "common_name_ua": "Бузок звичайний",
+    "cold_tolerance_c": -30,
     "drought_tolerance": 3,
     "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 2,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "grey_forest",
-      "solonets",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Gobjhkrk",
-    "common_name_ua": "Рослина 134",
-    "cold_tolerance_c": -15,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 3,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "disturbed",
-      "chernozem",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Bkhthlgc",
-    "common_name_ua": "Рослина 135",
-    "cold_tolerance_c": -34,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
     "biodiversity_support": 4,
-    "growth_rate": 1,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "sandy",
-      "podzolic",
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Arcqtdrl",
-    "common_name_ua": "Рослина 136",
-    "cold_tolerance_c": -27,
-    "drought_tolerance": 3,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
     "growth_rate": 3,
-    "recovery_speed": 4,
+    "recovery_speed": 3,
     "soil_tolerance": [
+      "chernozem",
       "grey_forest",
       "disturbed"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Syringa_vulgaris.jpg"
   },
   {
-    "scientific_name": "Plantus Wszcliok",
-    "common_name_ua": "Рослина 137",
-    "cold_tolerance_c": -2,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 1,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ezsimjhw",
-    "common_name_ua": "Рослина 138",
-    "cold_tolerance_c": -27,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 1,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "solonets",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Qsafupwp",
-    "common_name_ua": "Рослина 139",
-    "cold_tolerance_c": -18,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "meadow",
-      "grey_forest",
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Qtiqhffj",
-    "common_name_ua": "Рослина 140",
-    "cold_tolerance_c": -34,
-    "drought_tolerance": 2,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 3,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "podzolic",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Acbpwfir",
-    "common_name_ua": "Рослина 141",
-    "cold_tolerance_c": -26,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 1,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "chernozem",
-      "disturbed",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Iwjzxxbn",
-    "common_name_ua": "Рослина 142",
-    "cold_tolerance_c": -13,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 2,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Czhhtbdv",
-    "common_name_ua": "Рослина 143",
-    "cold_tolerance_c": -2,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 5,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Grsmtlte",
-    "common_name_ua": "Рослина 144",
-    "cold_tolerance_c": -26,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 1,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Iishqkzs",
-    "common_name_ua": "Рослина 145",
-    "cold_tolerance_c": -13,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 2,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ffvqjikw",
-    "common_name_ua": "Рослина 146",
-    "cold_tolerance_c": -15,
-    "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 4,
-    "growth_rate": 3,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Txwswoxr",
-    "common_name_ua": "Рослина 147",
-    "cold_tolerance_c": -44,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 1,
-    "growth_rate": 5,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Blofofcp",
-    "common_name_ua": "Рослина 148",
-    "cold_tolerance_c": -35,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 5,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Yhxpuhju",
-    "common_name_ua": "Рослина 149",
-    "cold_tolerance_c": -36,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "grey_forest",
-      "sandy",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Jsragyfn",
-    "common_name_ua": "Рослина 150",
-    "cold_tolerance_c": -29,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 2,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "podzolic",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Sewozsfr",
-    "common_name_ua": "Рослина 151",
-    "cold_tolerance_c": -22,
-    "drought_tolerance": 5,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 2,
-    "growth_rate": 2,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "solonets",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Vujfmmam",
-    "common_name_ua": "Рослина 152",
-    "cold_tolerance_c": -38,
-    "drought_tolerance": 2,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 5,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Mfgiurni",
-    "common_name_ua": "Рослина 153",
-    "cold_tolerance_c": -9,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 4,
-    "growth_rate": 5,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Rlbnmwkv",
-    "common_name_ua": "Рослина 154",
-    "cold_tolerance_c": -5,
-    "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Isqdtlpu",
-    "common_name_ua": "Рослина 155",
-    "cold_tolerance_c": -27,
-    "drought_tolerance": 3,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 4,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "grey_forest",
-      "chernozem",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Fkdeegfu",
-    "common_name_ua": "Рослина 156",
-    "cold_tolerance_c": -24,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Mtixgorn",
-    "common_name_ua": "Рослина 157",
-    "cold_tolerance_c": -41,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 3,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "meadow",
-      "grey_forest",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Zivrfmih",
-    "common_name_ua": "Рослина 158",
-    "cold_tolerance_c": -8,
-    "drought_tolerance": 3,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Basxahmh",
-    "common_name_ua": "Рослина 159",
-    "cold_tolerance_c": -5,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 2,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "chernozem",
-      "grey_forest",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Xcftbnxc",
-    "common_name_ua": "Рослина 160",
-    "cold_tolerance_c": -33,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 1,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Dovtwpdf",
-    "common_name_ua": "Рослина 161",
-    "cold_tolerance_c": -33,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "podzolic",
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Rpqylotr",
-    "common_name_ua": "Рослина 162",
-    "cold_tolerance_c": -4,
-    "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 4,
-    "growth_rate": 5,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "disturbed",
-      "meadow",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Amqaelop",
-    "common_name_ua": "Рослина 163",
-    "cold_tolerance_c": -24,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 3,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "disturbed",
-      "chernozem",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Zadidlta",
-    "common_name_ua": "Рослина 164",
-    "cold_tolerance_c": -21,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 5,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "podzolic",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Oaikmipm",
-    "common_name_ua": "Рослина 165",
-    "cold_tolerance_c": -27,
-    "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 3,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "sandy",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Qiahebdw",
-    "common_name_ua": "Рослина 166",
-    "cold_tolerance_c": -40,
-    "drought_tolerance": 1,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 1,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "podzolic",
-      "disturbed",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Evgfoxrw",
-    "common_name_ua": "Рослина 167",
-    "cold_tolerance_c": -14,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 2,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Lsagxswd",
-    "common_name_ua": "Рослина 168",
-    "cold_tolerance_c": -16,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 1,
-    "growth_rate": 1,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "chernozem",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Idlbrpbc",
-    "common_name_ua": "Рослина 169",
-    "cold_tolerance_c": -32,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 5,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "chernozem",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Xareerzu",
-    "common_name_ua": "Рослина 170",
-    "cold_tolerance_c": -16,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 4,
-    "growth_rate": 2,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "podzolic",
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Qnuvgctk",
-    "common_name_ua": "Рослина 171",
-    "cold_tolerance_c": -11,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 5,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "grey_forest",
-      "disturbed",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Koiiawpk",
-    "common_name_ua": "Рослина 172",
-    "cold_tolerance_c": 5,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 1,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Qbfcpozy",
-    "common_name_ua": "Рослина 173",
-    "cold_tolerance_c": 2,
-    "drought_tolerance": 5,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 1,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "podzolic",
-      "solonets",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Hmnoqgbj",
-    "common_name_ua": "Рослина 174",
-    "cold_tolerance_c": -32,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 3,
-    "growth_rate": 3,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "meadow",
-      "sandy",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Quszujmi",
-    "common_name_ua": "Рослина 175",
-    "cold_tolerance_c": -17,
-    "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 4,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "podzolic",
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Hjlouaii",
-    "common_name_ua": "Рослина 176",
+    "scientific_name": "Viburnum opulus",
+    "common_name_ua": "Калина звичайна",
     "cold_tolerance_c": -30,
     "drought_tolerance": 2,
     "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 2,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "meadow",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Mgvdvdte",
-    "common_name_ua": "Рослина 177",
-    "cold_tolerance_c": -33,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 4,
-    "growth_rate": 4,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "chernozem",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Icxhbniz",
-    "common_name_ua": "Рослина 178",
-    "cold_tolerance_c": -6,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 2,
+    "biodiversity_support": 5,
+    "growth_rate": 3,
     "recovery_speed": 3,
     "soil_tolerance": [
       "meadow",
+      "grey_forest"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Viburnum_opulus.jpg"
+  },
+  {
+    "scientific_name": "Hedera helix",
+    "common_name_ua": "Плющ звичайний",
+    "cold_tolerance_c": -23,
+    "drought_tolerance": 3,
+    "light_requirement": "shade",
+    "biodiversity_support": 4,
+    "growth_rate": 2,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "grey_forest",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hedera_helix.jpg"
+  },
+  {
+    "scientific_name": "Parthenocissus quinquefolia",
+    "common_name_ua": "Дівочий виноград п'ятилопатевий",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 4,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 4,
+    "recovery_speed": 4,
+    "soil_tolerance": [
       "disturbed",
       "grey_forest"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Parthenocissus_quinquefolia.jpg"
   },
   {
-    "scientific_name": "Plantus Ovavbktg",
-    "common_name_ua": "Рослина 179",
-    "cold_tolerance_c": -9,
-    "drought_tolerance": 2,
+    "scientific_name": "Achillea millefolium",
+    "common_name_ua": "Деревій звичайний",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 5,
     "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 1,
-    "recovery_speed": 3,
-    "soil_tolerance": [
-      "podzolic",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Cywlelmb",
-    "common_name_ua": "Рослина 180",
-    "cold_tolerance_c": -6,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 5,
+    "biodiversity_support": 4,
+    "growth_rate": 4,
     "recovery_speed": 4,
     "soil_tolerance": [
-      "disturbed"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ctjcibqe",
-    "common_name_ua": "Рослина 181",
-    "cold_tolerance_c": -38,
-    "drought_tolerance": 3,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 1,
-    "growth_rate": 1,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Vwuhivxu",
-    "common_name_ua": "Рослина 182",
-    "cold_tolerance_c": -17,
-    "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 4,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Rufctpax",
-    "common_name_ua": "Рослина 183",
-    "cold_tolerance_c": -21,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 2,
-    "growth_rate": 4,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Uijhtnwz",
-    "common_name_ua": "Рослина 184",
-    "cold_tolerance_c": -41,
-    "drought_tolerance": 4,
-    "light_requirement": "shade",
-    "biodiversity_support": 4,
-    "growth_rate": 5,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "podzolic",
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Haclqqbn",
-    "common_name_ua": "Рослина 185",
-    "cold_tolerance_c": -29,
-    "drought_tolerance": 4,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 5,
-    "growth_rate": 4,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "chernozem",
       "meadow",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ueuphjbt",
-    "common_name_ua": "Рослина 186",
-    "cold_tolerance_c": -34,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "podzolic",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Pgjcesdl",
-    "common_name_ua": "Рослина 187",
-    "cold_tolerance_c": 5,
-    "drought_tolerance": 1,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 4,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Uzfmswrq",
-    "common_name_ua": "Рослина 188",
-    "cold_tolerance_c": -33,
-    "drought_tolerance": 5,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 4,
-    "growth_rate": 3,
-    "recovery_speed": 4,
-    "soil_tolerance": [
-      "podzolic",
-      "chernozem",
-      "solonets"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Unnsmlob",
-    "common_name_ua": "Рослина 189",
-    "cold_tolerance_c": -34,
-    "drought_tolerance": 5,
-    "light_requirement": "shade",
-    "biodiversity_support": 5,
-    "growth_rate": 3,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "meadow"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Hyuetlbt",
-    "common_name_ua": "Рослина 190",
-    "cold_tolerance_c": -43,
-    "drought_tolerance": 4,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 3,
-    "growth_rate": 3,
-    "recovery_speed": 5,
-    "soil_tolerance": [
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Xtxsavys",
-    "common_name_ua": "Рослина 191",
-    "cold_tolerance_c": -15,
-    "drought_tolerance": 5,
-    "light_requirement": "partial_shade",
-    "biodiversity_support": 5,
-    "growth_rate": 2,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "podzolic",
       "sandy",
       "disturbed"
-    ]
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Achillea_millefolium.jpg"
   },
   {
-    "scientific_name": "Plantus Vsyyibiu",
-    "common_name_ua": "Рослина 192",
-    "cold_tolerance_c": -37,
-    "drought_tolerance": 2,
-    "light_requirement": "partial_shade",
+    "scientific_name": "Taraxacum officinale",
+    "common_name_ua": "Кульбаба лікарська",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
     "biodiversity_support": 4,
-    "growth_rate": 5,
+    "growth_rate": 4,
     "recovery_speed": 5,
     "soil_tolerance": [
-      "disturbed",
-      "chernozem"
-    ]
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taraxacum_officinale.jpg"
   },
   {
-    "scientific_name": "Plantus Eohuqpwd",
-    "common_name_ua": "Рослина 193",
-    "cold_tolerance_c": -16,
+    "scientific_name": "Bellis perennis",
+    "common_name_ua": "Маргаритка багаторічна",
+    "cold_tolerance_c": -20,
     "drought_tolerance": 3,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 4,
-    "growth_rate": 2,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "disturbed",
-      "podzolic"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Ugnwbuxh",
-    "common_name_ua": "Рослина 194",
-    "cold_tolerance_c": 0,
-    "drought_tolerance": 2,
-    "light_requirement": "full_sun",
-    "biodiversity_support": 5,
-    "growth_rate": 5,
-    "recovery_speed": 2,
-    "soil_tolerance": [
-      "chernozem"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Axmaxgpk",
-    "common_name_ua": "Рослина 195",
-    "cold_tolerance_c": -17,
-    "drought_tolerance": 1,
     "light_requirement": "full_sun",
     "biodiversity_support": 3,
-    "growth_rate": 5,
-    "recovery_speed": 1,
+    "growth_rate": 3,
+    "recovery_speed": 4,
     "soil_tolerance": [
-      "disturbed",
-      "sandy"
-    ]
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bellis_perennis.jpg"
   },
   {
-    "scientific_name": "Plantus Sdrvaecy",
-    "common_name_ua": "Рослина 196",
-    "cold_tolerance_c": -6,
+    "scientific_name": "Plantago major",
+    "common_name_ua": "Подорожник великий",
+    "cold_tolerance_c": -25,
     "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Plantago_major.jpg"
+  },
+  {
+    "scientific_name": "Trifolium repens",
+    "common_name_ua": "Конюшина повзуча",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 3,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Trifolium_repens.jpg"
+  },
+  {
+    "scientific_name": "Trifolium pratense",
+    "common_name_ua": "Конюшина лучна",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Trifolium_pratense.jpg"
+  },
+  {
+    "scientific_name": "Festuca rubra",
+    "common_name_ua": "Костриця червона",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "meadow",
+      "turf_podzolic",
+      "sandy"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Festuca_rubra.jpg"
+  },
+  {
+    "scientific_name": "Poa pratensis",
+    "common_name_ua": "Тонконіг лучний",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow",
+      "turf_podzolic"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Poa_pratensis.jpg"
+  },
+  {
+    "scientific_name": "Lolium perenne",
+    "common_name_ua": "Житняк багаторічний",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 2,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 4,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lolium_perenne.jpg"
+  },
+  {
+    "scientific_name": "Calamagrostis epigejos",
+    "common_name_ua": "Куничник наземний",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 4,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "disturbed",
+      "meadow",
+      "sandy"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Calamagrostis_epigejos.jpg"
+  },
+  {
+    "scientific_name": "Miscanthus sinensis",
+    "common_name_ua": "Міскантус китайський",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 2,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Miscanthus_sinensis.jpg"
+  },
+  {
+    "scientific_name": "Hosta sieboldiana",
+    "common_name_ua": "Хоста Зібольда",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 2,
+    "light_requirement": "shade",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hosta_sieboldiana.jpg"
+  },
+  {
+    "scientific_name": "Astilbe × arendsii",
+    "common_name_ua": "Астільба Арендса",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 2,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Astilbe_x_arendsii.jpg"
+  },
+  {
+    "scientific_name": "Hemerocallis fulva",
+    "common_name_ua": "Лілійник буро-жовтий",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 4,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hemerocallis_fulva.jpg"
+  },
+  {
+    "scientific_name": "Iris germanica",
+    "common_name_ua": "Ірис германський",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Iris_germanica.jpg"
+  },
+  {
+    "scientific_name": "Sedum acre",
+    "common_name_ua": "Очиток їдкий",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 5,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "sandy",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sedum_acre.jpg"
+  },
+  {
+    "scientific_name": "Sedum spurium",
+    "common_name_ua": "Очиток повзучий",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "sandy",
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sedum_spurium.jpg"
+  },
+  {
+    "scientific_name": "Lavandula angustifolia",
+    "common_name_ua": "Лаванда вузьколиста",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 5,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "sandy",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lavandula_angustifolia.jpg"
+  },
+  {
+    "scientific_name": "Rudbeckia fulgida",
+    "common_name_ua": "Рудбекія блискуча",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudbeckia_fulgida.jpg"
+  },
+  {
+    "scientific_name": "Echinacea purpurea",
+    "common_name_ua": "Ехінацея пурпурова",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Echinacea_purpurea.jpg"
+  },
+  {
+    "scientific_name": "Solidago canadensis",
+    "common_name_ua": "Золотарник канадський",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 4,
+    "recovery_speed": 5,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Solidago_canadensis.jpg"
+  },
+  {
+    "scientific_name": "Symphyotrichum novi-belgii",
+    "common_name_ua": "Айстра новобельгійська",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Symphyotrichum_novi-belgii.jpg"
+  },
+  {
+    "scientific_name": "Buxus sempervirens",
+    "common_name_ua": "Самшит вічнозелений",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 2,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 2,
+    "soil_tolerance": [
+      "grey_forest",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Buxus_sempervirens.jpg"
+  },
+  {
+    "scientific_name": "Taxus baccata",
+    "common_name_ua": "Тис ягідний",
+    "cold_tolerance_c": -23,
+    "drought_tolerance": 2,
+    "light_requirement": "shade",
+    "biodiversity_support": 3,
+    "growth_rate": 1,
+    "recovery_speed": 1,
+    "soil_tolerance": [
+      "grey_forest"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taxus_baccata.jpg"
+  },
+  {
+    "scientific_name": "Juniperus sabina",
+    "common_name_ua": "Яловець козацький",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "sandy",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Juniperus_sabina.jpg"
+  },
+  {
+    "scientific_name": "Juniperus communis",
+    "common_name_ua": "Яловець звичайний",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "sandy",
+      "turf_podzolic"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Juniperus_communis.jpg"
+  },
+  {
+    "scientific_name": "Spiraea japonica",
+    "common_name_ua": "Спірея японська",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Spiraea_japonica.jpg"
+  },
+  {
+    "scientific_name": "Weigela florida",
+    "common_name_ua": "Вейгела квітуча",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 2,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Weigela_florida.jpg"
+  },
+  {
+    "scientific_name": "Hydrangea arborescens",
+    "common_name_ua": "Гортензія деревоподібна",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 2,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 2,
+    "soil_tolerance": [
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hydrangea_arborescens.jpg"
+  },
+  {
+    "scientific_name": "Hydrangea paniculata",
+    "common_name_ua": "Гортензія волотиста",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 2,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 2,
+    "soil_tolerance": [
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hydrangea_paniculata.jpg"
+  },
+  {
+    "scientific_name": "Mahonia aquifolium",
+    "common_name_ua": "Магонія падуболиста",
+    "cold_tolerance_c": -23,
+    "drought_tolerance": 3,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "grey_forest",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahonia_aquifolium.jpg"
+  },
+  {
+    "scientific_name": "Cotoneaster lucidus",
+    "common_name_ua": "Кизильник блискучий",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cotoneaster_lucidus.jpg"
+  },
+  {
+    "scientific_name": "Cotoneaster horizontalis",
+    "common_name_ua": "Кизильник горизонтальний",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "sandy",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Cotoneaster_horizontalis.jpg"
+  },
+  {
+    "scientific_name": "Lonicera xylosteum",
+    "common_name_ua": "Жимолость звичайна",
+    "cold_tolerance_c": -30,
+    "drought_tolerance": 3,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "grey_forest"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lonicera_xylosteum.jpg"
+  },
+  {
+    "scientific_name": "Lonicera japonica",
+    "common_name_ua": "Жимолость японська",
+    "cold_tolerance_c": -23,
+    "drought_tolerance": 3,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "disturbed",
+      "grey_forest"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lonicera_japonica.jpg"
+  },
+  {
+    "scientific_name": "Clematis vitalba",
+    "common_name_ua": "Клематіс прямий",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "disturbed",
+      "grey_forest"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Clematis_vitalba.jpg"
+  },
+  {
+    "scientific_name": "Clematis jackmanii",
+    "common_name_ua": "Клематіс Жакмані",
+    "cold_tolerance_c": -23,
+    "drought_tolerance": 2,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Clematis_jackmanii.jpg"
+  },
+  {
+    "scientific_name": "Matricaria chamomilla",
+    "common_name_ua": "Ромашка аптечна",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 3,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Matricaria_chamomilla.jpg"
+  },
+  {
+    "scientific_name": "Leucanthemum vulgare",
+    "common_name_ua": "Ромашка звичайна",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leucanthemum_vulgare.jpg"
+  },
+  {
+    "scientific_name": "Geranium pratense",
+    "common_name_ua": "Герань луговая",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Geranium_pratense.jpg"
+  },
+  {
+    "scientific_name": "Digitalis purpurea",
+    "common_name_ua": "Наперстянка пурпурова",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 3,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 2,
+    "soil_tolerance": [
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Digitalis_purpurea.jpg"
+  },
+  {
+    "scientific_name": "Lilium martagon",
+    "common_name_ua": "Лілія кудревата",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 2,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 2,
+    "soil_tolerance": [
+      "grey_forest"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lilium_martagon.jpg"
+  },
+  {
+    "scientific_name": "Convallaria majalis",
+    "common_name_ua": "Конвалія звичайна",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 2,
     "light_requirement": "shade",
     "biodiversity_support": 4,
     "growth_rate": 2,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "grey_forest"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Convallaria_majalis.jpg"
+  },
+  {
+    "scientific_name": "Galium aparine",
+    "common_name_ua": "Підмаренник чіпкий",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 3,
+    "light_requirement": "partial_shade",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
     "recovery_speed": 4,
     "soil_tolerance": [
-      "solonets",
-      "sandy"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Aikgutcw",
-    "common_name_ua": "Рослина 197",
-    "cold_tolerance_c": 1,
-    "drought_tolerance": 1,
-    "light_requirement": "shade",
-    "biodiversity_support": 2,
-    "growth_rate": 5,
-    "recovery_speed": 1,
-    "soil_tolerance": [
       "disturbed",
-      "sandy"
-    ]
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Galium_aparine.jpg"
   },
   {
-    "scientific_name": "Plantus Qytptvoo",
-    "common_name_ua": "Рослина 198",
-    "cold_tolerance_c": 2,
+    "scientific_name": "Urtica dioica",
+    "common_name_ua": "Кропива дводомна",
+    "cold_tolerance_c": -25,
     "drought_tolerance": 3,
-    "light_requirement": "shade",
-    "biodiversity_support": 1,
-    "growth_rate": 5,
-    "recovery_speed": 1,
-    "soil_tolerance": [
-      "meadow",
-      "grey_forest"
-    ]
-  },
-  {
-    "scientific_name": "Plantus Tfghhekz",
-    "common_name_ua": "Рослина 199",
-    "cold_tolerance_c": -28,
-    "drought_tolerance": 1,
     "light_requirement": "partial_shade",
     "biodiversity_support": 3,
     "growth_rate": 4,
+    "recovery_speed": 5,
+    "soil_tolerance": [
+      "disturbed",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Urtica_dioica.jpg"
+  },
+  {
+    "scientific_name": "Artemisia vulgaris",
+    "common_name_ua": "Полин звичайний",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 5,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "disturbed",
+      "meadow",
+      "sandy"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Artemisia_vulgaris.jpg"
+  },
+  {
+    "scientific_name": "Chenopodium album",
+    "common_name_ua": "Лобода біла",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 2,
+    "growth_rate": 4,
+    "recovery_speed": 5,
+    "soil_tolerance": [
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Chenopodium_album.jpg"
+  },
+  {
+    "scientific_name": "Amaranthus retroflexus",
+    "common_name_ua": "Щириця загнута",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 4,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 2,
+    "growth_rate": 4,
+    "recovery_speed": 5,
+    "soil_tolerance": [
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amaranthus_retroflexus.jpg"
+  },
+  {
+    "scientific_name": "Dactylis glomerata",
+    "common_name_ua": "Їжак збірний",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dactylis_glomerata.jpg"
+  },
+  {
+    "scientific_name": "Phleum pratense",
+    "common_name_ua": "Тимофіївка лучна",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phleum_pratense.jpg"
+  },
+  {
+    "scientific_name": "Agrostis stolonifera",
+    "common_name_ua": "Підзимка повзуча",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "meadow",
+      "turf_podzolic"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Agrostis_stolonifera.jpg"
+  },
+  {
+    "scientific_name": "Carex hirta",
+    "common_name_ua": "Осока шорстка",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carex_hirta.jpg"
+  },
+  {
+    "scientific_name": "Carex acutiformis",
+    "common_name_ua": "Осока гостролиста",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 2,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
     "recovery_speed": 2,
     "soil_tolerance": [
-      "chernozem"
-    ]
+      "meadow",
+      "solonets"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Carex_acutiformis.jpg"
+  },
+  {
+    "scientific_name": "Juncus effusus",
+    "common_name_ua": "Ситник розлогий",
+    "cold_tolerance_c": -20,
+    "drought_tolerance": 1,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 2,
+    "recovery_speed": 2,
+    "soil_tolerance": [
+      "meadow",
+      "solonets"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Juncus_effusus.jpg"
+  },
+  {
+    "scientific_name": "Salix purpurea",
+    "common_name_ua": "Верба пурпурова",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 2,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 4,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Salix_purpurea.jpg"
+  },
+  {
+    "scientific_name": "Salix viminalis",
+    "common_name_ua": "Верба прутовидна",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 2,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 4,
+    "recovery_speed": 4,
+    "soil_tolerance": [
+      "meadow",
+      "disturbed"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Salix_viminalis.jpg"
+  },
+  {
+    "scientific_name": "Betula pubescens",
+    "common_name_ua": "Береза пухнаста",
+    "cold_tolerance_c": -35,
+    "drought_tolerance": 2,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 3,
+    "growth_rate": 3,
+    "recovery_speed": 3,
+    "soil_tolerance": [
+      "turf_podzolic",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Betula_pubescens.jpg"
+  },
+  {
+    "scientific_name": "Quercus petraea",
+    "common_name_ua": "Дуб скельний",
+    "cold_tolerance_c": -25,
+    "drought_tolerance": 3,
+    "light_requirement": "full_sun",
+    "biodiversity_support": 4,
+    "growth_rate": 2,
+    "recovery_speed": 2,
+    "soil_tolerance": [
+      "grey_forest",
+      "meadow"
+    ],
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Quercus_petraea.jpg"
   }
 ]

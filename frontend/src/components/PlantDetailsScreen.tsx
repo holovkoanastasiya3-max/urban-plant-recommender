@@ -25,11 +25,28 @@ export function PlantDetailsScreen({ plant, onBack, onNavigateHome, onNavigateTo
           </h2>
         </header>
 
-        {/* Image Placeholder */}
-        <div className="w-full h-64 border border-stone-200 bg-stone-50 flex items-center justify-center mb-8">
-          <span className="text-stone-400">
-            [Фото рослини]
-          </span>
+        {/* Image */}
+        <div className="w-full h-64 border border-stone-200 bg-stone-50 overflow-hidden mb-8">
+          {plant.imageUrl ? (
+            <img
+              src={plant.imageUrl}
+              alt={plant.commonName}
+              className="w-full h-full object-cover"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.style.display = 'none';
+                if (target.parentElement) {
+                  target.parentElement.innerHTML = '<span class="text-stone-400 flex items-center justify-center h-full">[Фото рослини]</span>';
+                }
+              }}
+            />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center">
+              <span className="text-stone-400">
+                [Фото рослини]
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Ecological Traits */}
@@ -101,7 +118,7 @@ export function PlantDetailsScreen({ plant, onBack, onNavigateHome, onNavigateTo
             Чому ця рослина підходить
           </h3>
           <p className="text-slate-700">
-            {plant.explanation}
+            {plant.explanation || "Рослина відповідає заданим критеріям."}
           </p>
         </section>
 

@@ -6,9 +6,18 @@ DB_PATH = "db/urban_plants.db"
 DATA_DIR = "data"  # створюємл окрему папку для json-файлів
 
 
-def import_plants():
+def import_plants(clear_existing=False):
     conn = sqlite3.connect(DB_PATH)
     cur = conn.cursor()
+
+    # Очищаємо існуючі дані про рослини (якщо потрібно)
+    if clear_existing:
+        print("Clearing existing plant data...")
+        cur.execute("DELETE FROM plant_soil_tolerance")
+        cur.execute("DELETE FROM plant_traits")
+        cur.execute("DELETE FROM plants")
+        conn.commit()
+        print("Existing data cleared.")
 
     files = [f for f in os.listdir(DATA_DIR) if f.endswith(".json")]
 
@@ -21,10 +30,11 @@ def import_plants():
         for plant in plants:
             scientific_name = plant["scientific_name"]
             common_name_ua = plant["common_name_ua"]
+            image_url = plant.get("image_url")  # Отримуємо image_url, якщо є
 
             cur.execute(
-                "INSERT INTO plants (scientific_name, common_name_ua) VALUES (?, ?)",
-                (scientific_name, common_name_ua),
+                "INSERT INTO plants (scientific_name, common_name_ua, image_url) VALUES (?, ?, ?)",
+                (scientific_name, common_name_ua, image_url),
             )
             plant_id = cur.lastrowid
 
@@ -65,4 +75,7 @@ def import_plants():
 
 
 if __name__ == "__main__":
-    import_plants()
+    import sys
+    # Якщо передано аргумент --clear, очищаємо БД перед імпортом
+    clear = "--clear" in sys.argv or "-c" in sys.argv
+    import_plants(clear_existing=clear)

@@ -21,11 +21,28 @@ export function PlantCard({ plant, onClick }: PlantCardProps) {
       }}
     >
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
-        {/* Image Placeholder */}
-        <div className="w-full sm:w-32 h-32 flex-shrink-0 border border-stone-200 bg-stone-50 flex items-center justify-center">
-          <span className="text-stone-400 text-center px-2 text-xs">
-            [Фото рослини]
-          </span>
+        {/* Image */}
+        <div className="w-full sm:w-32 h-32 flex-shrink-0 border border-stone-200 bg-stone-50 overflow-hidden">
+          {plant.imageUrl ? (
+            <img
+              src={plant.imageUrl}
+              alt={plant.commonName}
+              className="w-full h-full object-cover"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.style.display = 'none';
+                if (target.parentElement) {
+                  target.parentElement.innerHTML = '<span class="text-stone-400 text-center px-2 text-xs flex items-center justify-center h-full">[Фото рослини]</span>';
+                }
+              }}
+            />
+          ) : (
+            <div className="w-full h-full flex items-center justify-center">
+              <span className="text-stone-400 text-center px-2 text-xs">
+                [Фото рослини]
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Content */}
